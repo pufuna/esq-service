@@ -12,6 +12,13 @@ try {
 } catch (e) {
   if (!fs.existsSync(A) && fs.existsSync(A + '.prev')) fs.renameSync(A + '.prev', A);
 }
+// файлы, которые при обновлении были заняты (например, руководство PDF было открыто): rename заменяет файл,
+// если он уже свободен; если нет — останется *.new до следующего запуска
+try {
+  for (const f of fs.readdirSync(__dirname)) {
+    if (f.endsWith('.new') && f !== 'esq.asar.new') { try { fs.renameSync(path.join(__dirname, f), path.join(__dirname, f.slice(0, -4))); } catch (e) {} }
+  }
+} catch (e) {}
 // файлы версий до 2.8.0 (открытым текстом) больше не нужны
 for (const f of ['index.html', 'main.js', 'preload.js', 'docs.js']) { try { fs.rmSync(path.join(__dirname, f), { force: true }); } catch (e) {} }
 try { fs.rmSync(path.join(path.dirname(__dirname), 'app_prev'), { recursive: true, force: true }); } catch (e) {}
