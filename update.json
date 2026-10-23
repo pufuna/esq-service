@@ -1,12 +1,12 @@
 {
- "version": "2.8.2",
+ "version": "2.8.3",
  "date": "2026-10-23",
  "notes": [],
  "files": [
   {
    "name": "package.json",
    "size": 395,
-   "sha256": "ca114a2bd436c9ebb6ab01b81b795c243ffbae71c019ead791f38f94c480ad66"
+   "sha256": "b7553d92ee560299328d8a0e81f6813e762b84811b2e14d4d0041454bf368fc8"
   },
   {
    "name": "loader.js",
@@ -15,8 +15,8 @@
   },
   {
    "name": "esq.asar",
-   "size": 2845209,
-   "sha256": "1da9bdf08b81defa787322bd06f12bedfaee58db65b9c00032ab59dc837248e8"
+   "size": 2845344,
+   "sha256": "5e5d5ff61359f39727826752c5adc457def595cc1b3778419ecb63287a0237cd"
   },
   {
    "name": "doc_ESQ_Service_manual.pdf",
