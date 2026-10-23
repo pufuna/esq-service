@@ -1,12 +1,12 @@
 {
- "version": "2.8.3",
+ "version": "2.8.4",
  "date": "2026-10-23",
  "notes": [],
  "files": [
   {
    "name": "package.json",
    "size": 395,
-   "sha256": "b7553d92ee560299328d8a0e81f6813e762b84811b2e14d4d0041454bf368fc8"
+   "sha256": "2342cbd7e83422525efd2cf996f9aab8f314c2356e7edb32413b66a4ba8d478d"
   },
   {
    "name": "loader.js",
@@ -15,13 +15,13 @@
   },
   {
    "name": "esq.asar",
-   "size": 2845344,
-   "sha256": "5e5d5ff61359f39727826752c5adc457def595cc1b3778419ecb63287a0237cd"
+   "size": 2847395,
+   "sha256": "b10c89bf6d6cbf39ecfaa920bd81bd610001a354ee2375b9976432d4150904ca"
   },
   {
    "name": "doc_ESQ_Service_manual.pdf",
-   "size": 14494485,
-   "sha256": "16575f7ff705b84488e9291e3ddc8ea4a236ca9ab05c0763e32eea357183f2d6"
+   "size": 15505204,
+   "sha256": "59c8aa4a8e372a3137e37b878eb660858dba82c8d0dcc6650b73edac8023b015"
   },
   {
    "name": "doc_RE_ESQ_F_ME800.pdf",
