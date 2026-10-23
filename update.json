@@ -1,0 +1,87 @@
+{
+ "version": "2.8.0",
+ "date": "2026-10-23",
+ "notes": [],
+ "files": [
+  {
+   "name": "package.json",
+   "size": 395,
+   "sha256": "c42508421f3d537a1979f277b025369a4cbc25da6bc609c24876c40c29139343"
+  },
+  {
+   "name": "loader.js",
+   "size": 1252,
+   "sha256": "64f8d481d55ac59c6286c545c5b69147b739b47b5a1c64b99bf1682e9f6cf0f0"
+  },
+  {
+   "name": "esq.asar",
+   "size": 2844762,
+   "sha256": "b89c347c0bd57471f0f33236a2a85baf7de39fe16c2b76ba09fa21ec37f2069e"
+  },
+  {
+   "name": "doc_ESQ_Service_manual.pdf",
+   "size": 14494485,
+   "sha256": "16575f7ff705b84488e9291e3ddc8ea4a236ca9ab05c0763e32eea357183f2d6"
+  },
+  {
+   "name": "doc_RE_ESQ_F_ME800.pdf",
+   "size": 3751299,
+   "sha256": "9de20fde1c4751e78d564b12f1b5547c4faba9174a97dd24c1405f81758e712e"
+  },
+  {
+   "name": "doc_RE_ESQ_F_ME800-R.pdf",
+   "size": 6247843,
+   "sha256": "17a4b0fe96460e8c254d47b45f7115610436cf6f2fc440615cd3ab934c150812"
+  },
+  {
+   "name": "doc_RE_ESQ_F_HVS.pdf",
+   "size": 882545,
+   "sha256": "28da1628f1f425ccf8a56c5e12825fa44cec493ecd79490d4595eeb96a5d5d68"
+  },
+  {
+   "name": "doc_RE_ESQ-500-600.pdf",
+   "size": 11559371,
+   "sha256": "128958cde071f9eba38054c1721b2a49ac9f796f0af7b2101072c69e310d6109"
+  },
+  {
+   "name": "doc_RE_ESQ-770.pdf",
+   "size": 8673306,
+   "sha256": "e0b97c18e8804a03de2a4f9955a03eb5b7af5334d03cc7799b96e2c4d667f7e4"
+  },
+  {
+   "name": "doc_KR_ESQ-770.pdf",
+   "size": 2196535,
+   "sha256": "5973d7beca5313cd9819c260e1ef516ca4482a674c4c840dde4aa32eb16f0c50"
+  },
+  {
+   "name": "doc_RE_ESQ_F790.pdf",
+   "size": 7848635,
+   "sha256": "f5d7eb68b0bfe064680681b4bedd6e9779e1b1c487dda0577e6f26e8e2cec79e"
+  },
+  {
+   "name": "doc_RE_ESQ_F190S.pdf",
+   "size": 4940101,
+   "sha256": "d13bc284ece294ecaed96924ca516438a7304ea364756fb07da40a797f8f7f4c"
+  },
+  {
+   "name": "doc_KR_ESQ_F190S.pdf",
+   "size": 1867034,
+   "sha256": "ec1262cfb118340698a6eeeac8305598f340bc712c229eb16bd4e783eb00f145"
+  },
+  {
+   "name": "doc_RE_ESQ-230.pdf",
+   "size": 2284032,
+   "sha256": "5a3ec19e51a23c637d0646d13c32c4e6d0df07d373599d4524bba6cb8ca13cb5"
+  },
+  {
+   "name": "doc_RE_ESQ-230_V2.00.pdf",
+   "size": 3295343,
+   "sha256": "7f85446af6f87a132a62b3aad94b2ea70bc5ddce97f99d20b88cdf612a5e02f7"
+  },
+  {
+   "name": "doc_KR_ESQ-230.pdf",
+   "size": 1743781,
+   "sha256": "3f226c1121d4d3b2fe1048917f6d270ddc69f3d77731fac32f429d05dbeb896a"
+  }
+ ]
+}

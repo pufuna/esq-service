@@ -1,0 +1,24 @@
+{
+ "runtime": "38.2.2",
+ "folder": "ESQ_ME800_Service",
+ "exe": "ESQ ME800 Service.exe",
+ "size": 113978460,
+ "sha256": "2d170d2b62db5b811da165aa44638b01603023148a094df19a42bce821470e99",
+ "parts": [
+  {
+   "name": "runtime.zip.001",
+   "size": 40000000,
+   "sha256": "59fd02d571127599cd8ac03872ff2c9c1e0c2da71833a199372fcbbc3ab9c1e7"
+  },
+  {
+   "name": "runtime.zip.002",
+   "size": 40000000,
+   "sha256": "d6f2819e18079673133b61a4a0fe1af48a0970f98d12f7f3223655e1fb38d9f6"
+  },
+  {
+   "name": "runtime.zip.003",
+   "size": 33978460,
+   "sha256": "1871fd6d6404c040e750cf9e3b7ae71a0e796dc8ea062f14dea9de8a09448db7"
+  }
+ ]
+}
