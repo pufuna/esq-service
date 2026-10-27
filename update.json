@@ -1,12 +1,12 @@
 {
- "version": "2.9.0",
- "date": "2026-10-24",
+ "version": "2.10.0",
+ "date": "2026-10-27",
  "notes": [],
  "files": [
   {
    "name": "package.json",
-   "size": 395,
-   "sha256": "c7f73873d423f526e724089a41d98b4303832b44f56d3397b28d858ed1791612"
+   "size": 396,
+   "sha256": "afbf3a3af270a8fab5f029f7b281e1b2e0e6382b633f55cd36c7a7a7ab0beee7"
   },
   {
    "name": "loader.js",
@@ -15,8 +15,8 @@
   },
   {
    "name": "esq.asar",
-   "size": 2881487,
-   "sha256": "37666e18e856232f90abd9c1f50eb11ac858a79ab33cab03e5ec7c5fc12f7220"
+   "size": 2916877,
+   "sha256": "1ab354a21f04a3a22bf585e5a07044153ffcc7f55a864e378fc01097b05e7712"
   },
   {
    "name": "icon.ico",
