@@ -1,12 +1,12 @@
 {
- "version": "2.10.0",
- "date": "2026-10-27",
+ "version": "2.11.0",
+ "date": "2026-11-05",
  "notes": [],
  "files": [
   {
    "name": "package.json",
-   "size": 396,
-   "sha256": "afbf3a3af270a8fab5f029f7b281e1b2e0e6382b633f55cd36c7a7a7ab0beee7"
+   "size": 439,
+   "sha256": "99fd480c39a7c87cd60b00a4150b665d7a051f99473c407a5086649e4db276ca"
   },
   {
    "name": "loader.js",
@@ -15,8 +15,8 @@
   },
   {
    "name": "esq.asar",
-   "size": 2916877,
-   "sha256": "1ab354a21f04a3a22bf585e5a07044153ffcc7f55a864e378fc01097b05e7712"
+   "size": 3039769,
+   "sha256": "bcd881801911e5ab76e00ae9b6fc62b01774149ab91ef307986144ae29209c74"
   },
   {
    "name": "icon.ico",
@@ -37,6 +37,11 @@
    "name": "doc_RE_ESQ_F_ME800-R.pdf",
    "size": 6247843,
    "sha256": "17a4b0fe96460e8c254d47b45f7115610436cf6f2fc440615cd3ab934c150812"
+  },
+  {
+   "name": "doc_MB_ESQ_F_ME800S.pdf",
+   "size": 203031,
+   "sha256": "faa23b15e801fca34fd57035f998a7825d006301c451d3e955b66501c9d11d98"
   },
   {
    "name": "doc_RE_ESQ_F_HVS.pdf",
