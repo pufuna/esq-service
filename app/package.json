@@ -1,7 +1,7 @@
 {
   "name": "esq-me800-service",
   "productName": "ESQ F ME800 Service",
-  "version": "2.12.1",
+  "version": "2.12.2",
   "description": "Сервисная программа для ВВ ПЧ ESQ F ME800, ВВ ПЧ ESQ F ME800-R, ВВ ПЧ ESQ F ME800S, ВВ УПП ESQ F HVS, НВ ПЧ ESQ-500/600, НВ ПЧ ESQ-770, НВ ПЧ ESQ F790, НВ ПЧ ESQ F190S и НВ ПЧ ESQ-230 (Modbus RTU / TCP)",
   "author": "ООО «Элком»",
   "main": "loader.js"
