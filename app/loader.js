@@ -21,7 +21,8 @@ try {
 } catch (e) {}
 // прежние редакции руководства пользователя (doc_ESQ_Service_manual[_x.y.z].pdf) — кроме последней; занятые остаются до следующего запуска
 try {
-  const key = (f) => (f.match(/_(\d+(?:\.\d+)*)\.pdf$/) || [0, '0'])[1].split('.').map(Number).reduce((a, x) => a * 1000 + x, 0);
+  // номер редакции выравнивается до 4 частей: 2.12 > 2.8.5 (без выравнивания 2.12 давал 2012, а 2.8.5 — 2008005)
+  const key = (f) => { const v = (f.match(/_(\d+(?:\.\d+)*)\.pdf$/) || [0, '0'])[1].split('.').map(Number); while (v.length < 4) v.push(0); return v.slice(0, 4).reduce((a, x) => a * 1000 + x, 0); };
   const man = fs.readdirSync(__dirname).filter(f => /^doc_ESQ_Service_manual(_[\d.]+)?\.pdf$/.test(f)).sort((a, b) => key(b) - key(a));
   for (const f of man.slice(1)) { try { fs.rmSync(path.join(__dirname, f), { force: true }); } catch (e) {} }
 } catch (e) {}
